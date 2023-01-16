@@ -5,7 +5,7 @@ require("dotenv").config();
 const app = express();
 const keys = require("./../keys.json");
 
-app.set("keys", keys.ecentials);
+app.set("keys", keys.toddlerwalks);
 
 const routes = require("../routes/v1/routes");
 
